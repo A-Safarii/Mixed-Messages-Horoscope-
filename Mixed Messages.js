@@ -1,3 +1,94 @@
+const Virgo = {
+    advice: "It’s time to put your plans in motion, connect with your personal power, and evolve.",
+    "Share your achievements with family and friends.",
+    "Participate in courses and workshops to update knowledge.",
+    "You may have to assume leadership of the family group, faced with a new challenge. Trust your abilities.",
+    "The emotional stability of the native is more important than immersion in fleeting romantic adventures.", 
+    "Conflicts in the work area. As far as possible, avoid discussing your plans with people from the work environment. Respect the feeding and rest schedules.",
+    "Anguish. Feelings of abandonment.", 
+    "Open communication will promote a true understanding with family or partner. Practicality in investments, and the management of shared assets.",
+    "You may find yourself with more than one alternative at hand, so decisions related to academic life, international contracts, and publications should be carefully analyzed before taking action.",
+    "The love that you give, through your work and mission, will return multiplied.",
+    "Creative visualization. Potential to materialize your dreams. Do not be afraid to assume leadership of teams, or initiatives with an impact on the collective. Your experience has prepared you for it.",
+    "Accepting the help of others is part of the process of growth and evolution of being." ]
+    characteristic: ['Audacious', 'Adventurous', 'Impatient', 'Joyful', 'Indulgent', 'Sensitive', 'Wise', 'Inspired', 'Mature', 'Generous']
+}
+
+const Aquarius = {
+    advice: ["Stay determined, and you will achieve your goals.",
+    "Avoid superfluous expenses, risky investments, and new credit instruments. Plan your budget wisely and with attention to details.",
+    "Balance between personal goals and professional goals. Firmness. Success. Intuition leads the way.",
+    "Unexpected events at home. Keeping your ideas clear will be the key to mediating family disagreements. Do not leave for tomorrow the conversations you can have today.",
+    "You may have to choose between two people, or be true to your true feelings. Analyze the situation, logically, and you will find the answer.",
+    "Favorable climate for the presentation of new projects. Enjoy hard-earned achievements.",
+    "Accepting reality is the first step to overcome discomfort. Receive support from your loved ones.",
+    "Work on building an authentic relationship, and with values. Express your feelings.",
+    "Prejudices add additional burden to the events of the present. Free yourself from the past, and see events in perspective.",
+    "Professional success. Balance work and family life. Don’t lose focus on the essentials.",
+    "Your enthusiasm and motivation can create friction, between friends and colleagues. Listen to your counterpart, and practice empathy.",
+    "Power comes from within you."],
+    characteristic: ['Strong', 'Freedom', 'Self-Purpose', 'Self-Affirmation', 'Impatient', 'Indecisive', 'Authentic', 'Dedicated', 'Firm', 'Serene']
+}
+
+const Gemini = {
+    advice: ["Sincerity in affections. Recognize the value of love and family support.",
+    "Manage your finances wisely, to avoid relevant budget shortfalls. Take responsibility for your successes and mistakes.",
+    "Connect with your long-term goals, and personal expansion plan. Prepare for the future. Don’t be afraid to start promoting projects.",
+    "Respect the warnings of your intuition. Analyze in detail the conditions of transactions, which involve family assets.",
+    "Activities with friends from childhood/adolescence. A love from the past can return to your life. Relive the flames of passion.",
+    "Dedication at work. Fight for your interests. Use strategy to achieve career goals. Avoid excesses.",
+    "Idealization of the object of affections. Insecurity regarding the feelings of the other. Take time to reflect, realistically, on what you expect from your partner and what you are willing to deliver. Beware of victimization.",
+    "Stability in romantic relationships. Enjoy the present moment. Be honest with your feelings. Financial success.",
+    "Unexpected opportunities. Determination to face situations. Dare to start publishing projects, university or language courses, web pages, or international operations.",
+    "Intention to transform professional reality, and create one’s own path. Cut with the past, and the old concepts of success and improvement.",
+    "Recognition for your work, in groups and associations. Cheers with friends and colleagues. Share your life experience with those willing to listen.",
+    "It is necessary to understand that each process has its own time, and it is not wise to rush it. Be nice to yourself, and your feelings."],
+    characteristic: ['Tranquil', 'Trustworthy', 'Sympathetic', 'Happy', 'Nostalgic', 'Suspicious', 'Joyful', 'Creative', 'Introspective', 'Mature' ]
+}
+
+const Sagittarius = {
+    advice: ["Build a new scale of values, and cultivate positive self-talk. Perseverance will be your main ally to overcome the test.",
+    "Celebrate each of the achievements, with joy and gratitude",
+    "Sometimes it will be necessary to distance yourself from family events (and the comfortable zone), to gain a new vision of the environment and of yourself.",
+    "On the romantic level, the native will take the reins of the relationship. Preach by example.",
+    "Negotiation of contracts and job proposals. Avoid excesses, and manipulative people. Show your skills honestly, and without arrogance.",
+    "Possibility of rupture, in a relationship or association. Sadness. Difficult times are part of soul learning. Do not lose hope.",
+    "Practicality Leadership in academic projects or international operations. Success. Design your long-term goals.",
+    "Need to connect with the true vocation. Take time to reflect, on your mission and purpose, and pay attention to the doors that open (opportunities).",
+    "Distancing Conflicts with friends and colleagues. Concern inherent in collective initiatives. Meditate on your position in the groups, and the actions taken to materialize the dreams.",
+    "Don’t get caught up in apathy. Transform your energy, and work at your best version."],
+    characteristic: ['Distanced', 'Prudence', 'Honest', 'Balanced', 'Cooperative', 'Self-knowledge', 'Secure', 'Progressive', 'Practical', 'Introspective']
+}
+
+const Capricorn = {
+    advice: ["Focusing on a situation or attitude does not contribute to your present. Break away from limiting thoughts, and connect with your ambitions.",
+    "Put your ideas into practice. Invest in your academic training and professional updating.",
+    "Before making a decision, ask yourself if you are listening to a voice from the past, or are you aligned with your best version.",
+    "Your joy and experience are valuable gifts, manifest them.",
+    "Be cautious, make sure you meet your responsibilities, and accept challenges as opportunities for growth.",
+    "Don’t act without thinking. Reflect on the nature of your feelings before making a deeper and more lasting commitment.",
+    "Take advantage of the moments of tranquility, to strengthen bonds in the relationship, through the exchange of ideas, experiences, and projects.",
+    "Search for the truth. Religiosity. Dedication to study. Avoid conformism. Trust your potential for growth and expansion.",
+    "Take time to redefine your career goals, and identify what is truly important to you. Beware of external pressures and the expectations of others.",
+    "Ease of providing practical advice to anyone who requires it. Joining the group does not mean losing individuality.",
+    "Challenges and contrasting events are the biggest motivators for personal growth, because they drive you to leave your comfort zone and see beyond the known."],
+    characteristic: ['Indipendent', 'Tranquil', 'Fair', 'Truthful', 'Reflective', 'Cautious', 'Listener', 'Practical', 'Patient', 'Strong']
+}
+
+const Pisces = {
+    advice: ["Explore your inner world, and you will find unsuspected answers.",
+    "Adjust your financial planning, considering fixed expenses and medium and long-term objectives. Avoid unnecessary risks.",
+    "Just because plans don’t go according to plan doesn’t mean you’re purposeless. Redefine your goals and strategies.",
+    "The purchase, sale or rental of family properties must be done with special care, to avoid scams and unfair actions.",
+    "Support from loved ones will be crucial in overcoming disappointments and cultivating emotional balance.",
+    "Your experience motivates others to conquer challenges. Share your knowledge.",
+    "Announcement of commitments. Subscription of contracts. Every good deed is rewarded.",
+    "Difficulty commenting on painful events in the past. Trust is part of the dynamics of any relationship. If you don’t feel comfortable talking about the facts with your partner or family, seek external professional support.",
+    "Take time to analyze your future projects. Remember that the greater good requires sacrifices.",
+    " Successes in social events, and initiatives managed as a team. Connect with your right of merit, and divine abundance.",
+    "Consciousness Recognition of the spiritual journey. Intuition. Look to the future with joy and gratitude."],
+    characteristic: ['Spiritual', 'Committed', 'Insightful', 'Optimistic', 'Self-sufficient', 'Observant', 'Loving', 'Thoughtful', 'Realistic', 'Steady']
+}
 
 const Aries = {
     advice: ["Trust your abilities.",
