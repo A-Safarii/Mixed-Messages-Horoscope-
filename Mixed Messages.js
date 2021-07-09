@@ -1,5 +1,5 @@
 const Virgo = {
-    advice: "It’s time to put your plans in motion, connect with your personal power, and evolve.",
+    advice: ["It’s time to put your plans in motion, connect with your personal power, and evolve.",
     "Share your achievements with family and friends.",
     "Participate in courses and workshops to update knowledge.",
     "You may have to assume leadership of the family group, faced with a new challenge. Trust your abilities.",
@@ -10,7 +10,7 @@ const Virgo = {
     "You may find yourself with more than one alternative at hand, so decisions related to academic life, international contracts, and publications should be carefully analyzed before taking action.",
     "The love that you give, through your work and mission, will return multiplied.",
     "Creative visualization. Potential to materialize your dreams. Do not be afraid to assume leadership of teams, or initiatives with an impact on the collective. Your experience has prepared you for it.",
-    "Accepting the help of others is part of the process of growth and evolution of being." ]
+    "Accepting the help of others is part of the process of growth and evolution of being." ],
     characteristic: ['Audacious', 'Adventurous', 'Impatient', 'Joyful', 'Indulgent', 'Sensitive', 'Wise', 'Inspired', 'Mature', 'Generous']
 }
 
@@ -200,56 +200,14 @@ while (char1 === char2 || char1 === char3 || char2 === char3) {
     char3 = Math.floor(Math.random() * 10);
 }
 
-let userInput = 'leo';
 
-//Add true random
-switch(userInput) {
-    case 'aries':
-        console.log('Advice: ');
-        console.log(Aries.advice[Math.floor(Math.random() * Aries.advice.length)]);
-        console.log('Characteristics of an Aries: ');
-        console.log(Aries.characteristic[char1]);
-        console.log(Aries.characteristic[char2]);
-        console.log(Aries.characteristic[char3]);
-        break;
-    case 'leo':
-        console.log('Advice: ');
-        console.log(Leo.advice[Math.floor(Math.random() * Leo.advice.length)]);
-        console.log('Characteristics of a Leo: ');
-        console.log(Leo.characteristic[char1]);
-        console.log(Leo.characteristic[char2]);
-        console.log(Leo.characteristic[char3]);
-        break;
-    case 'cancer':
-        console.log('Advice: ');
-        console.log(Cancer.advice[Math.floor(Math.random() * Cancer.advice.length)]);
-        console.log('Characteristics of a Cancer: ');
-        console.log(Cancer.characteristic[char1]);
-        console.log(Cancer.characteristic[char2]);
-        console.log(Cancer.characteristic[char3]);
-        break;
-    case 'scorpio':
-        console.log('Advice: ');
-        console.log(Scorpio.advice[Math.floor(Math.random() * Scorpio.advice.length)]);
-        console.log('Characteristics of a Scorpio: ');
-        console.log(Scorpio.characteristic[char1]);
-        console.log(Scorpio.characteristic[char2]);
-        console.log(Scorpio.characteristic[char3]);
-        break;
-    case 'libra':
-        console.log('Advice: ');
-        console.log(Libra.advice[Math.floor(Math.random() * Libra.advice.length)]);
-        console.log('Characteristics of a Libra: ');
-        console.log(Libra.characteristic[char1]);
-        console.log(Libra.characteristic[char2]);
-        console.log(Libra.characteristic[char3]);
-        break;
-    case 'taurus':
-        console.log('Advice: ');
-        console.log(Taurus.advice[Math.floor(Math.random() * Taurus.advice.length)]);
-        console.log('Characteristics of a Taurus: ');
-        console.log(Taurus.characteristic[char1]);
-        console.log(Taurus.characteristic[char2]);
-        console.log(Taurus.characteristic[char3]);
-        break;
+const returnInput = userInput => {
+    console.log('Advice: ');
+    console.log(userInput.advice[Math.floor(Math.random() * userInput.advice.length)]);
+    console.log('Characteristics: ');
+    console.log(userInput.characteristic[char1]);
+    console.log(userInput.characteristic[char2]);
+    console.log(userInput.characteristic[char3]);
 }
+
+returnInput(Leo);
